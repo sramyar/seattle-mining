@@ -13,7 +13,7 @@ Using Seattle Airbnb listings data to answer the following questions:
 There is a jupyter notebook that contains the code for data analysis.
 
 # Results
-The findings are posted on this article in medium.
+The findings are posted on this [article](https://medium.com/@sepehr.ramyar/seattle-rediscovered-88352cb7a157) in medium.
 
 # Acknowledgments
-Credits must be given to StacOverflow for the data. Also thanks to Udacity for the introducing the concepts. Clustering method was introduced in this article: (https://medium.com/@MSalnikov/text-clustering-with-k-means-and-tf-idf-f099bcf95183)
+Credits must be given to StacOverflow for the data. Also thanks to Udacity for the introducing the concepts. Clustering method was introduced in this [article](https://medium.com/@MSalnikov/text-clustering-with-k-means-and-tf-idf-f099bcf95183)
