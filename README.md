@@ -16,4 +16,4 @@ There is a jupyter notebook that contains the code for data analysis.
 The findings are posted on this article in medium.
 
 # Acknowledgments
-Credits must be given to StacOverflow for the data. Also thanks to Udacity for the introducing the concepts. Clustering method was introduced in this article: https://medium.com/@MSalnikov/text-clustering-with-k-means-and-tf-idf-f099bcf95183
+Credits must be given to StacOverflow for the data. Also thanks to Udacity for the introducing the concepts. Clustering method was introduced in this article: (https://medium.com/@MSalnikov/text-clustering-with-k-means-and-tf-idf-f099bcf95183)
