@@ -18,6 +18,10 @@ There is a jupyter notebook that contains the code for data analysis. The approa
 
 3. Data Preparation: For clustering neighborhoods based on vibes, we concatenate all the reviews to make one larger text. The text is then used for training the KNN model. For finding high seasons, the time series features of the panda library is used. This involves reading in the data and formatting the strings corresponding to each day as dates. The same process is used for preparing the data for long-term trends analysis.
 
+Regarding categorical variables, we do not explicitly encode them in our models. This is particularly because the machine learning approach that we take in this project is 'unsupervised'. Instead, we use the corpus of reviews to train a KNN model and cluster the neighborhoods into different classes.
+
+For missing values, we only investigate columns to see what portion of the cloumn is composed of missing values. since most column that are used in this analysis had over %80 non-missing values, we did not replpace or impute the missing values. For price, particularly, the data for 2016 is complete so there was no need to worry about missing values.
+
 4. Data Modeling: For clustering neighborhood vibes, I tried to focus on guests’ reviews and trained a kNN (k Nearest Neighbors) model using SciKitLearn package. Choosing the number of clusters is a bit ad-hoc but after a couple of trial and errors, it converged to 5 as the best option. Using this method, and particularly the embedded TF-IDF approach for finding key words in each cluster, led to a surprisingly interesting categorization of neighborhood vibes. We can then roughly predict each neighborhood’s vibe using the trained model.
 
 For analyzing high season, I use the reviews data set. This is because if guests have left a review for a room, they must have stayed there very recently. It’s unlikely to leave a review for the place you stayed after a month; especially since the host’s review can also be visible only once the guests leave their review. So, using the time series features of the panda library, I plotted the monthly average frequencies of reviews for 2015.
